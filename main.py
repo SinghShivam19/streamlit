@@ -12,6 +12,7 @@ while run:
     frame_window.image(frame)
     if c == 1:
         st.write("shuvam singh")
+    break
 
 else:
     st.write("click please")
