@@ -8,7 +8,7 @@ c = 0
 while run:
     c += 1
     ret, frame = cam.read()
-    
+    frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
     frame_window.image(frame)
     if c == 1:
         st.write("shuvam singh")
