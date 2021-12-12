@@ -3,7 +3,7 @@ import streamlit as st
 st.title("webcame application")
 run = st.checkbox("Run")
 frame_window = st.image([])
-cam = cv2.VideoCapture(0)
+cam = cv2.VideoCapture(-1)
 c = 0
 while run:
     c += 1
