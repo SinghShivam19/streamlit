@@ -1,5 +1,5 @@
-import streamlit as st
 import cv2
+import streamlit as st
 st.title("webcame application")
 run = st.checkbox("Run")
 frame_window = st.image([])
