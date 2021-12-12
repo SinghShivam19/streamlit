@@ -1,5 +1,12 @@
 import cv2
 import streamlit as st
+from streamlit_webrtc import (
+    AudioProcessorBase,
+    ClientSettings,
+    VideoProcessorBase,
+    WebRtcMode,
+    webrtc_streamer,
+)
 st.title("webcame application")
 run = st.checkbox("Run")
 frame_window = st.image([])
